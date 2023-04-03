@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2? family= Golos+Text & familia= Montserrat:peso@300;600;700 &family= Roboto & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    
+}
+
+.formulario{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+}
+.control{
+    width: 100%;
+    display: grid;
+    gap:5em;
+    grid-auto-columns:100%;
+    margin: 3px;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+.form_titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: bottom 0.4em;
+}
+.button{
+font-size: 1rem;
+background-color: #fff;
+color: black;
+border: none;
+font-weight: 400;
+padding: 0.2em;
+width: 80%;
+margin: 35px;
+cursor: pointer;
+}
